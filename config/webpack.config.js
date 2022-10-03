@@ -28,6 +28,9 @@ const ReactRefreshWebpackPlugin = require('@pmmmwh/react-refresh-webpack-plugin'
 
 const createEnvironmentHash = require('./webpack/persistentCache/createEnvironmentHash');
 
+// Get Typescript Path Aliases
+const getCompilerAliases = require('./getCompilerAliases');
+
 // Source maps are resource heavy and can cause out of memory issue for large source files.
 const shouldUseSourceMap = process.env.GENERATE_SOURCEMAP !== 'false';
 
@@ -319,6 +322,7 @@ module.exports = function (webpackEnv) {
           'scheduler/tracing': 'scheduler/tracing-profiling',
         }),
         ...(modules.webpackAliases || {}),
+        ...getCompilerAliases
       },
       plugins: [
         // Prevents users from importing files from outside of src/ (or node_modules/).
