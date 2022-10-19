@@ -1,4 +1,4 @@
-**/public
-**/config
-**/scripts
-**/node_modules
+public
+config
+scripts
+node_modules
