@@ -67,6 +67,7 @@
         }
       }
     ],
+    "import/prefer-default-export": "off",
     "import/no-cycle": "off",
     "no-console": "error",
     "prettier/prettier": "warn",
