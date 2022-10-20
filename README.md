@@ -31,7 +31,7 @@ Tailwind, emotion, twin.macro
 | pages
 | lib
 | hooks
-| entity
+| models
 | styles
 ```
 
