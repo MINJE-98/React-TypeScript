@@ -1,6 +1,14 @@
 {
   "name": "react-typescript",
   "version": "0.1.0",
+  "author": {
+    "name": "조민제",
+    "url": "https://www.github.com/MINJE-98",
+    "email": "minje9801@gmail.com"
+  },
+  "engines": {
+    "node": "16.14.2"
+  },
   "private": true,
   "dependencies": {
     "@babel/core": "^7.16.0",
