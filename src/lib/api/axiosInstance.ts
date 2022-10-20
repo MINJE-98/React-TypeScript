@@ -1,6 +1,6 @@
 import axios from "axios";
 
-import { REACT_APP_SERVER_URL } from "@Constants/server";
+import { REACT_APP_SERVER_URL } from "@Library/constants/server";
 
 const axiosInstance = axios.create({ baseURL: REACT_APP_SERVER_URL });
 

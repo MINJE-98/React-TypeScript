@@ -19,7 +19,7 @@
     "paths": {
       "@Components/*": ["src/components/*"],
       "@Pages/*": ["src/pages/*"],
-      "@Lib/*": ["src/lib/api/*"],
+      "@Library/*": ["src/lib/*"],
       "@Models/*": ["src/models/*"],
       "@Hooks/*": ["src/hooks/*"],
       "@Styles/*": ["src/styles/*"]
