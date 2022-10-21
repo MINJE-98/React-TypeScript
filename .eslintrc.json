@@ -67,7 +67,8 @@
         }
       }
     ],
-    "import/prefer-default-export": "off",
+    "import/no-extraneous-dependencies": ["off", { "ignore": ["twin.macro"] }],
+    "react/no-unknown-property": ["off", { "ignore": ["css", "tw"] }],
     "import/no-cycle": "off",
     "no-console": "error",
     "prettier/prettier": "warn",
